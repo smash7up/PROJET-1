@@ -1,0 +1,7 @@
+- Pourquoi ce site ? Site pour les fans du club et pour ceux qui ne connaissent justement pas le club
+- Quelles infos pourront-ils trouver ? Des infos sur l'histoire du club, le palmarès, la billetterie, les résultats sportifs.
+- Quelles actions pourront-ils faire ? Accéder à la billetterie pour acheter des billets, contacter le créateur du site, 
+consulter les résultats et les prochains matchs avec les différentes côtes.
+- Quelles fonctionnalités ou éléments de contenu répondront à ces besoins ? Un lien direct vers la billetterie, un formulaire de contact, 
+une page dédiée aux résultats en temps réel ainsi que les côtes de bookmakers, une section sur l'histoire et le palmarès du club : 
+tout cela dans une barre de navigation.
