@@ -5,3 +5,13 @@ consulter les résultats et les prochains matchs avec les différentes côtes.
 - Quelles fonctionnalités ou éléments de contenu répondront à ces besoins ? Un lien direct vers la billetterie, un formulaire de contact, 
 une page dédiée aux résultats en temps réel ainsi que les côtes de bookmakers, une section sur l'histoire et le palmarès du club : 
 tout cela dans une barre de navigation.
+
+
+Contenu : 
+- "Histoire" : fiche d'identité + moments forts du club + palmarès 
+- "Supporters" : vidéos des chants (corons, lensoise,...) et noms des différentes assoc
+- "Résultats" : vidéos résumé de matchs (liens youtube?), classement à jour, résultats de la saison
+- Contact : formulaire
+
+Bonus : 
+- page de chargement avec logo ?
