@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+
+  .cartes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 50px 20px 0px 20px;
+  }
+
+  .identite_bloc {
+    height: 500px;
+    background-color: #ff000030;
+    display: grid;
+    grid-template: 80px 150px 220px 50px / 1fr;
+    border-radius: 8px;
+    box-shadow: 0px 3px 0px rgb(255, 213, 1);
+    border: 1.5px solid rgb(255, 213, 1);
+    margin-bottom: 2rem;
+  }
+
+  .titre_identite {
+    text-align: center;
+    margin: 10px;
+  }
+
+  .red_text {
+    color: red;
+    font-size: 15px;
+  }
+
+  .sous_text {
+    margin: 10px;
+  }
+
+  .img_bloc {
+    grid-area: 2 / 1 / 2 / 1;
+    background-image: url('images/accueil-page.jpg');
+    background-size: cover;
+    background-position: 100%;
+    box-shadow: 0px 10px 40px #5b5b5bab;;
+  }
+  
+  .fiche_identite_contenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+  }
+
+  li {
+    padding: 1.5px;
+  }
+
+  .btn_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .btn_section a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+    transition: opacity .4s;
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .popup {
+    margin: 6rem auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 5px;
+    width: 95%;
+    position: relative;
+    transition: all 0.4s ease-in-out;
+    overflow-y: scroll;
+    max-height: 400px;
+  }
+
+  .popup .cross {
+    position: absolute;
+    top: 1px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+  }
+
+  .popup .cross:hover {
+    color: red;
+  }
+
+  @media all and (min-width: 426px) {
+    .cartes {
+      align-items: center;
+    }
+  }
+
+  @media all and (min-width: 1024px) {
+    .cartes {
+      flex-direction: row;
+    }
+  }
