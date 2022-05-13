@@ -45,7 +45,6 @@
   
   .sidenav a:hover {
     color: rgb(8, 8, 8);
-    background-color: red;
   }
   
   .sidenav.active {

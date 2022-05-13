@@ -8,7 +8,7 @@
   .cartes {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
     margin: 50px 20px 0px 20px;
   }
 
@@ -37,9 +37,25 @@
     margin: 10px;
   }
 
-  .img_bloc {
+  .img_bloc1 {
     grid-area: 2 / 1 / 2 / 1;
     background-image: url('images/accueil-page.jpg');
+    background-size: cover;
+    background-position: 100%;
+    box-shadow: 0px 10px 40px #5b5b5bab;;
+  }
+
+  .img_bloc2 {
+    grid-area: 2 / 1 / 2 / 1;
+    background-image: url('images/equipe_histoire.jpg');
+    background-size: cover;
+    background-position: 100%;
+    box-shadow: 0px 10px 40px #5b5b5bab;;
+  }
+
+  .img_bloc3 {
+    grid-area: 2 / 1 / 2 / 1;
+    background-image: url('images/drapeaux.jpg');
     background-size: cover;
     background-position: 100%;
     box-shadow: 0px 10px 40px #5b5b5bab;;
@@ -85,6 +101,7 @@
   }
 
   .popup {
+    text-align: center;
     margin: 6rem auto;
     padding: 2rem;
     background: white;
@@ -110,14 +127,19 @@
     color: red;
   }
 
-  @media all and (min-width: 426px) {
+
+  @media (min-width: 1024px) {
     .cartes {
-      align-items: center;
+      flex-direction: row;
     }
   }
 
-  @media all and (min-width: 1024px) {
+  @media (min-width: 600px) {
     .cartes {
-      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .identite_bloc {
+      width: 60%;
     }
   }
