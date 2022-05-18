@@ -63,6 +63,10 @@
   }
 }
 
+.winamax {
+  width: 100%;
+}
+
 @media all and (min-width: 768px) {
   .caroussel_bloc {
     height: 600px;

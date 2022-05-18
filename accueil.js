@@ -12,3 +12,13 @@ function openNav() {
 function closeNav() {
   sidenav.classList.remove("active");
 }
+
+document.getElementById("wina").onclick = function () {
+  const age = prompt('Quel est votre âge ?');
+  if (age >= '18') {
+        window.open("https://www.winamax.fr/", '_blank');
+  }
+  else {
+        window.open("https://www.jeux.fr/", '_blank');
+}
+    };
